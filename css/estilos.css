@@ -1,0 +1,82 @@
+@font-face{
+    font-family: "Alex";
+    src:url(../fonts/Letters\ for\ Learners\ Dots.ttf)
+}
+@font-face{
+    font-family: "Luna";
+    src:url(../fonts/Muthiara\ demo\ version.otf)
+}
+@font-face{
+    font-family: "Teddy";
+    src:url(../fonts/Stanberry.ttf)
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ffbbbb;
+    font-family: "Teddy";
+    font-size: 15px;
+}
+
+header, .main, footer{
+    width: 90%;
+max-width: 1000px;
+margin: 20px auto;
+}
+
+header nav{
+    background: #d41b1b;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+    font-family: "Luna";
+    font-size: 24px;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: #ff9494;
+}
+
+.main .articles{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+.main .articles article{
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+aside{
+    width: 30%;
+    background: #ff5246;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    background: #000;
+    color: #fff;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+    font-family: "Alex";
+}
